@@ -365,7 +365,7 @@
     <!--FOOTER-->
     <footer class="footer">
         <div class="container footer-container">
-                <div class="footer-address">
+            <div class="footer-address">
                 <a class="logo-footer link" href="/index.html">Web<span class="logo-footer-span">Studio</span></a>        
             <address>
                 <ul class="address-list list">
@@ -383,7 +383,8 @@
                         <a class="address-contacts link" href="tel:+380991111111">+38 099 111 11 11</a>
                     </li>
                 </ul>
-            </address>
+            </address>                    
+            </div>
             <div class="footer-social">
                 <h3 class="footer-socials-title">присоединяйтесь</h3>
                 <ul class="footer-social-list list">
@@ -416,8 +417,7 @@
                         </a>
                     </li>
                 </ul>
-                </div>
-            </div> 
+                </div> 
             <form class="footer-submit">
                 <p class="footer-submit-text">Подпишитесь на рассылку</p>
                 <div class="footer-sbm-container">
@@ -483,7 +483,8 @@
                     <span class="modal-form-input-desc">Почта</span>
                     <span class="modal-form-input-wrapper">
                         <input 
-                            type="email" 
+                            type="email"
+                            name="user_email" 
                             class="modal-form-input" 
                             required
                             />
@@ -501,7 +502,7 @@
                 </label>
                 <input id="user-policy" type="checkbox" name="user_policy" class="modal-form-check visually-hidden">
                 <label for="user-policy" class="modal-form-check-desc">
-                    Соглашаюсь с рассылкой и принимаю&nbsp; <a href="">Условия договора</a> 
+                    Соглашаюсь с рассылкой и принимаю&nbsp; <a class="modal-policy-link" href="">Условия договора</a> 
                 </label>
                 <button type="submit" class="modal-form-submit">Отправить</button>
             </form>
