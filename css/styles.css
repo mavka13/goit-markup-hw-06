@@ -619,6 +619,8 @@ body {
     flex-direction: column;
 }
 .modal-form-field{
+    width: 448px;
+    height: 58px;
     margin-bottom: 10px;
 }
 .modal-form-input{
@@ -689,18 +691,18 @@ body {
 .modal-form-check-desc{
     display: flex;
     align-items: center;
+    
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     color: var(--text-color);
     margin-bottom: 30px;
     margin-left: 15px;
-      
 }
 .modal-form-check:checked + .modal-form-check-desc::before{
     background-color: var(--accent-color);
     background-image: url(../images/icons.svg/check-box.svg);
-    background-position: center;
+    background-position-x: 50%; 
     background-repeat: no-repeat;
     border-color: var(--accent-color);
     outline-color: none;
